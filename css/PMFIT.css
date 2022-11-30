@@ -1,0 +1,82 @@
+.navbar {
+    background-color: aquamarine;
+}
+
+Fleximg {
+    height: 10px;
+    width: 20px;
+}
+
+#title {
+    background-color: white;
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-left: 30px;
+    border: 50px;
+}
+
+.titlerow {
+    padding: auto;
+}
+
+#programs {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-top: 20px;
+    border-bottom: 20px;
+}
+
+.social {
+    text-align: center;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+footer {
+    background-color: paleturquoise;
+    margin: 0px;
+}
+
+.flex {
+    padding: 5rem;
+}
+
+.ourprograms {
+    text-align: center;
+}
+
+#BMI {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#ABOUTUS {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bmiMage {
+    text-align: right;
+}
+
+.row1 {
+    margin-top: 1020px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+#NAS {
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 80px;
+    margin-right: 50px
+}

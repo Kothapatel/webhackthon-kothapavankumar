@@ -1,0 +1,21 @@
+body{
+    margin: 25px;
+    background-color: rgb(165, 194, 185);
+}
+.set{
+    font-size: 23px;
+}
+.hd{
+    font-size: 40px;
+    font-family: cursive;
+    background-color: bisque;
+}
+.ex img{
+    width: 35%;
+    height: 35%;
+    display: flex;
+    margin: auto;
+}
+.ex li{
+    font-size: 19px;
+}

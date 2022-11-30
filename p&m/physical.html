@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(176, 192, 147);
+        }
+        .hd span{
+            display: block;
+            background-color: rgb(217, 111, 36);
+            padding: 13px;
+            width: 30%;
+            margin: auto;
+            font-family: cursive;
+            font-size: 40px;
+        }
+        .items{
+            border: 1px solid black;
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            margin: 30px;
+            background-color: white;
+            border-radius: 15px;
+        }
+        .home{
+            display: flex;
+            height: 500px;
+            margin: 100px;
+        }
+        .text{
+            font-size: 40px;
+            margin: 120px 0px;
+            padding: 10px;
+            font-family: cursive;
+            width: 25%;
+        }
+        .text p{
+            list-style: 0px;
+        }
+        .items p{
+            font-size: 23px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+            margin: auto;
+        }
+        .items img{
+            margin: auto;
+            height: 250px;
+            width: 250px;
+        }
+        .items button{
+            width: 150px;
+            height: 40px;
+            margin: auto;
+            border-radius: 10px;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="hd">
+        <span>PHYSICAL ACTIVITES</span>
+    </div>
+    <div class="home">
+        <div class="text">
+            <p>STAY HOME<br>&nbspAND<br>BECOME FIT</p>
+        </div>
+        <div class="items">
+            <p>EXERCISES</p>
+            <img src="exer.png" alt="">
+            <button>
+                <form action="exercises.html">
+                    <input type="submit" value="GO" />
+                </form>
+            </button>     
+        </div>
+        <div class="items">
+            <P>YOGA</P>
+            <img src="yoga.png" alt="">
+            <button>
+                <form action="yoga.html">
+                    <input type="submit" value="GO" />
+                </form>
+            </button>     
+        </div>
+    </div>
+</body>
+</html>
